@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>RPS With Friends</title>
+</head>
+<body>
+    <div class="title">
+        <h1 class="title-text">RPS With Friends</h1>
+    </div>
+    <div class="game-container">
+        <div class="game-area">
+            <div class="play-area">
+                <div class="my-hand"></div>
+                <div class="opponent-hand"></div>
+            </div>
+            <div class="control-area">
+                <div class="rps" id="rock">
+                        <i class="far fa-hand-rock fa-5x"></i>
+                </div>
+                <div class="rps" id="paper">
+                        <i class="far fa-hand-paper fa-5x"></i>
+                </div>
+                <div class="rps" id="scissors">
+                        <i class="far fa-hand-scissors fa-5x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="chat-area"></div>
+    </div>
+
+
+    <!-- Popup Box -->
+    <div class="popup">
+        <h1>Welcome to RPS With Friends!</h1>
+        <h4>Please enter your username below to get started:</h6>
+            <form>
+            Username:  <input type="text" name="username" id='username'><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        <p>The first player to reach a score of 7 wins the game!</p>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>

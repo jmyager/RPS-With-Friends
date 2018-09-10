@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    height: 10vh;
+ }
+
+.title-text {
+    padding: 0 auto;
+    width: auto;
+}
+
+.game-container, .game-area, .chat-area {
+    border: 1px solid black;
+}
+
+.play-area {
+    border-bottom: 1px solid black;
+}
+
+.game-container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    border: 0;
+}
+
+.game-area {
+    width: 68%;
+}
+
+.play-area {
+    height: 80%;
+    width: auto;
+    position: relative;
+}
+
+.my-hand, .opponent-hand {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.my-hand {
+    bottom: 0;
+    left: 0;
+}
+
+.opponent-hand {
+    top: 0;
+    right: 0;
+}
+
+.control-area {
+    height: 20%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.rps {
+    width: 30%;
+}
+
+.far {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat-area {
+    width: 28%;
+    padding: 5px;
+    margin-left: 4%;
+}
+
+.popup {
+    background-color: gray;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    right: 30%;
+    padding: 10px;
+}
